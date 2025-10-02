@@ -1,0 +1,9 @@
+# Add content to summa.txt
+echo "Welcome to my project!" > summa.txt
+
+# Or add multiple lines:
+@"
+Welcome to my project!
+This is a sample text file.
+Created by Selvakumaran
+"@ | Set-Content summa.txt
