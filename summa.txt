@@ -3,7 +3,7 @@ echo "Welcome to my project!" > summa.txt
 
 # Or add multiple lines:
 @"
-Welcome to my project!
+Welcome to mroject!
 This is a sample text file.
 Created by Selvakumaran
 "@ | Set-Content summa.txt
